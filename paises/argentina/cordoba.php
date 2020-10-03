@@ -1,6 +1,8 @@
 <?php 
 include("../php/datos.php");
-$pagina = "Paises";
+$pagina = "Ciudad de Córdoba";
+$pais = "Argentina";
+
 $active_paises = "active2";
 ?>
 <!DOCTYPE html>
@@ -14,109 +16,15 @@ $active_paises = "active2";
 
 	<main id="main" data-aos="fade-up">
 
-		<!-- ======= Breadcrumbs ======= -->
-		<section class="breadcrumbs bg-dark">
-			<div class="container">
+		<section class="breadcrumbs bg-primary">
+	      <div class="container">
 
-				<div class="d-flex justify-content-between align-items-center mt-3">
-					<h1 class="text-white">Paises registrados</h1>
-				</div>
+	        <div class="d-flex justify-content-between align-items-center">
+	          <h1 class="text-white mt-4"><?php echo $pagina; ?> | <?php echo $pais; ?></h1>
+	        </div>
 
-			</div>
-		</section><!-- End Breadcrumbs -->
-
-		<div class="container">
-				<section id="featured-services" class="featured-services">
-					<div class="container aos-init aos-animate" data-aos="fade-up">
-
-						<div class="row">
-							<div class="col-md-12">
-								<div class="input-group input-group-lg">
-					                <div class="input-group-prepend">
-					                  <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fa fa-search"></i></span>
-					                </div>
-					                <input type="text" class="form-control" id="yobusco"  aria-describedby="inputGroup-sizing-lg" placeholder="Buscar">
-					             </div>
-							</div>
-							<div class="col-md-6 col-lg-3 text-center mb-lg-0 mt-4 buscar">
-								<div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-									<div class="icon"><span class="flag-icon flag-icon-ar fa-3x"></span></div>
-									<h4 class="title"><a href="#" data-toggle="modal" data-target="#argentina">Argentina</a></h4>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-3 text-center mb-lg-0 mt-4 buscar">
-								<div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-									<div class="icon"><span class="flag-icon flag-icon-uy fa-3x"></span></div>
-									<h4 class="title"><a href="#" onclick="Swal.fire('Próximamente','Aún no esta disponible este país','warning');">Uruguay</a></h4>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-3 text-center mb-lg-0 mt-4 buscar">
-								<div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-									<div class="icon"><span class="flag-icon flag-icon-mx fa-3x"></span></div>
-									<h4 class="title"><a href="#" onclick="Swal.fire('Próximamente','Aún no esta disponible este país','warning');">México</a></h4>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-3 text-center mb-lg-0 mt-4 buscar">
-								<div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-									<div class="icon"><span class="flag-icon flag-icon-es fa-3x"></span></div>
-									<h4 class="title"><a href="#" onclick="Swal.fire('Próximamente','Aún no esta disponible este país','warning');">España</a></h4>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-3 text-center mb-lg-0 mt-4 buscar">
-								<div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-									<div class="icon"><span class="flag-icon flag-icon-us fa-3x"></span></div>
-									<h4 class="title"><a href="#" onclick="Swal.fire('Próximamente','Aún no esta disponible este país','warning');">Estados Unidos</a></h4>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-3 text-center mb-lg-0 mt-4 buscar">
-								<div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-									<div class="icon"><span class="flag-icon flag-icon-ng fa-3x"></span></div>
-									<h4 class="title"><a href="#" onclick="Swal.fire('Próximamente','Aún no esta disponible este país','warning');">Nigeria</a></h4>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-3 text-center mb-lg-0 mt-4 buscar">
-								<div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-									<div class="icon"><span class="flag-icon flag-icon-it fa-3x"></span></div>
-									<h4 class="title"><a href="#" onclick="Swal.fire('Próximamente','Aún no esta disponible este país','warning');">Italia</a></h4>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-3 text-center mb-lg-0 mt-4 buscar">
-								<div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-									<div class="icon"><span class="flag-icon flag-icon-fr fa-3x"></span></div>
-									<h4 class="title"><a href="#" onclick="Swal.fire('Próximamente','Aún no esta disponible este país','warning');">Francia</a></h4>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-3 text-center mb-lg-0 mt-4 buscar">
-								<div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-									<div class="icon"><span class="flag-icon flag-icon-de fa-3x"></span></div>
-									<h4 class="title"><a href="#" onclick="Swal.fire('Próximamente','Aún no esta disponible este país','warning');">Alemania</a></h4>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-3 text-center mb-lg-0 mt-4 buscar">
-								<div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-									<div class="icon"><span class="flag-icon flag-icon-ca fa-3x"></span></div>
-									<h4 class="title"><a href="#" onclick="Swal.fire('Próximamente','Aún no esta disponible este país','warning');">Canada</a></h4>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-3 text-center mb-lg-0 mt-4 buscar">
-								<div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-									<div class="icon"><span class="flag-icon flag-icon-pa fa-3x"></span></div>
-									<h4 class="title"><a href="#" onclick="Swal.fire('Próximamente','Aún no esta disponible este país','warning');">Panama</a></h4>
-								</div>
-							</div>
-							<div class="col-md-6 col-lg-3 text-center mb-lg-0 mt-4 buscar">
-								<div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-									<div class="icon"><span class="flag-icon flag-icon-br fa-3x"></span></div>
-									<h4 class="title"><a href="#" onclick="Swal.fire('Próximamente','Aún no esta disponible este país','warning');">Brasil</a></h4>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</section>
-			</div>
-
-
+	      </div>
+	    </section>
 			
 	</main><!-- End #main -->
 
