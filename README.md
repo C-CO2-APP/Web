@@ -1,2 +1,2 @@
 # Web
-Panel Web C/CO2=APP
+Web Panel C/CO2=APP
