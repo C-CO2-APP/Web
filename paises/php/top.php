@@ -1,5 +1,5 @@
 <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top bg-dark">
+  <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top bg-dark d-print-none">
     <div class="container d-flex">
       <div class="contact-info float-left">
         <a href="../../app/" class="btn btn-outline-secondary"><i class="fa fa-user"></i> Acceso administrativo</a>

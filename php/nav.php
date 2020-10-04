@@ -2,7 +2,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <a href="index.php" class="mr-auto"><img src="https://i.imgur.com/f9RXric.png" style="width: 25%;" alt=""></a>
+      <a href="index.php" class="mr-auto"><img src="https://i.imgur.com/oWMjj8v.png" style="width: 20%;" alt=""></a>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
