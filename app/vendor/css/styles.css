@@ -1,3 +1,24 @@
+.scroll-x { overflow-x: scroll;}
+.bg-negro {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+.bg-gris {
+  background-color: #f2f2f2 !important;
+  color: #000 !important;
+}
+h5 .bg-negro {
+  color: #fff !important;
+}
+.bg-card {
+  background-color: #f7f7f7 !important;
+}
+.bg-skin {
+  background-color: #e8e8e8 !important;
+}
+.list-style {
+  list-style:none;
+}
 @charset "UTF-8";
 /*!
 * Start Bootstrap - SB Admin Pro v1.2.0 (https://shop.startbootstrap.com/product/sb-admin-pro)
@@ -10,6 +31,12 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ /*!
+  * Ginestar v1.0 (https://brann.ar/)
+  * Copyright 2020
+  * Licencia DNDA Argentina y SafeCreative España
+  * Licencia MIT Estados Unidos
+  */
 :root {
   --blue: #0061f2;
   --indigo: #5800e8;
