@@ -38,7 +38,6 @@ $titulo = "Salite OCO-2";
             <div class="card-body">
 
               <img src="https://i.imgur.com/Z76ypu4.png" style="width: 100%;">
-
               <br><br>
 
               <h1>Orbiting Carbon Observatory-2</h1>
@@ -53,19 +52,19 @@ $titulo = "Salite OCO-2";
     </body>
     </html>
     <script type="text/javascript">
-    // Datatables
-    $('#productos').dataTable( {
-      "language": {
-        "url": "//cdn.datatables.net/plug-ins/1.10.16/i18n/Spanish.json"
-      },
-      dom: 'Bfrtip',
-      buttons: [
-      'csv', 'excel', 'pdf', 'print'
-      ]
-    } );
-    </script>
-    <style type="text/css">
-      .dt-buttons {
-        margin-bottom: -25px;
-      }
-    </style>
+// Datatables
+$('#productos').dataTable( {
+  "language": {
+    "url": "//cdn.datatables.net/plug-ins/1.10.16/i18n/Spanish.json"
+  },
+  dom: 'Bfrtip',
+  buttons: [
+  'csv', 'excel', 'pdf', 'print'
+  ]
+} );
+</script>
+<style type="text/css">
+  .dt-buttons {
+    margin-bottom: -25px;
+  }
+</style>
